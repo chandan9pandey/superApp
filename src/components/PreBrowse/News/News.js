@@ -4,12 +4,12 @@ import "./News.css";
 
 const News = () => {
 	const [news, setNews] = useState("");
-	var date = new Date().toISOString().split("T")[0];
+	var todayDate = new Date().toISOString().split("T")[0];
 	console.log(news);
 	useEffect(() => {
 		const fetchNews = async () => {
 			await fetch(
-				`https://newsapi.org/v2/everything?q=india&from=${date}&sortBy=popularity&apiKey=6e6ba9d8f1714b8fa9905cfeeefae6a4`
+				`https://newsapi.org/v2/everything?q=india&from=${todayDate}&sortBy=popularity&apiKey=6e6ba9d8f1714b8fa9905cfeeefae6a4`
 			) //extracting the data here
 				.then(async (data) => await data.json()) //here data is coming in json format
 				.then((result) => setNews(result.articles[0])); // finally using the data to display on the app

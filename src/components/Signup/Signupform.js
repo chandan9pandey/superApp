@@ -43,7 +43,7 @@ const Signupform = () => {
 		if (!value.phone) {
 			errors.phone = "Field is required";
 		}
-		if (value.check == false) {
+		if (value.check === false) {
 			errors.check = "Check this box if you want to proceed";
 		}
 		return errors;

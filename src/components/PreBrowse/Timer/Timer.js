@@ -11,13 +11,13 @@ const Timer = () => {
 	const [hours, setHours] = useState(0);
 	const [playing, setPlaying] = useState(false);
 	const increaseSecond = () => {
-		if (seconds == 59) {
+		if (seconds === 59) {
 			return;
 		}
 		setSeconds((sec) => sec + 1);
 	};
 	const increaseMinute = () => {
-		if (minutes == 59) {
+		if (minutes === 59) {
 			return;
 		}
 		setMinutes((min) => min + 1);
@@ -26,19 +26,19 @@ const Timer = () => {
 		setHours((hours) => hours + 1);
 	};
 	const decreaseSecond = () => {
-		if (seconds == 0) {
+		if (seconds === 0) {
 			return;
 		}
 		setSeconds((sec) => sec - 1);
 	};
 	const decreaseMinute = () => {
-		if (minutes == 0) {
+		if (minutes === 0) {
 			return;
 		}
 		setMinutes((min) => min - 1);
 	};
 	const decreaseHour = () => {
-		if (hours == 0) {
+		if (hours === 0) {
 			return;
 		}
 		setHours((hours) => hours - 1);
