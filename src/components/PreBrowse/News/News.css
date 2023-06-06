@@ -1,0 +1,45 @@
+.news-box {
+	height: 85vh;
+	width: 50vh;
+	background-color: #ffffff;
+	border-radius: 15px;
+	font-family: "Roboto", sans-serif;
+}
+.news-image {
+	margin: 0;
+	height: 55vh;
+	width: 50vh;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+}
+.shade {
+	position: absolute;
+	top: 49vh;
+	width: 55vh;
+	background: rgba(0, 0, 0, 0.74);
+}
+.heading {
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	color: #ffffff;
+	margin: 0 20px;
+}
+.date .time {
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 15px;
+	color: #ffffff;
+	margin: 0;
+}
+.description {
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	margin: 15px 20px;
+	text-align: justify;
+	line-height: 150%;
+}

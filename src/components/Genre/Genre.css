@@ -1,0 +1,92 @@
+body {
+	height: 100vh;
+	width: 100vw;
+}
+.content {
+	height: 100vh;
+	width: 100vw;
+	background-color: black;
+	display: flex;
+	justify-content: center;
+}
+.left {
+	left: 70px;
+	width: 40vw;
+}
+.head {
+	font-family: "Single Day";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 3em;
+	color: #72db73;
+	margin-top: 90px;
+	margin-bottom: 30px;
+}
+.subHead {
+	width: 554px;
+	height: 225px;
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 3.5em;
+	color: #ffffff;
+	margin-top: 20px;
+	margin-bottom: 0;
+}
+.chips {
+	margin-top: 10px;
+}
+.error-msg {
+	font-family: "Roboto", sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 15px;
+	text-align: center;
+	left: auto;
+	display: flex;
+	align-items: center;
+}
+.box {
+	width: 120px;
+	padding: 5px;
+	border-radius: 12px;
+	color: #ffffff;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.box-text {
+	margin-top: 5px;
+	margin-left: 5px;
+	margin-bottom: 10px;
+	font-family: "DM Sans";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 15px;
+}
+.right {
+	position: relative;
+	top: 30px;
+	display: grid;
+	row-gap: 18px;
+	column-gap: 18px;
+	grid-template-columns: repeat(3, 1fr);
+	max-width: 50vw;
+	max-height: 70vh;
+}
+.sign-up {
+	color: white;
+	background: #148a08;
+	border-radius: 20px;
+	border: none;
+	width: 150px;
+	font-family: "DM Sans";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	position: absolute;
+	bottom: 50px;
+	right: 100px;
+	cursor: pointer;
+	padding: 5px;
+}

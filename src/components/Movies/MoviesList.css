@@ -1,0 +1,28 @@
+.movie-genre {
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 25px;
+	color: #878787;
+	margin-left: 70px;
+	margin-top: 3px;
+	margin-bottom: 3px;
+}
+.movie-container {
+	display: flex;
+	overflow-x: hidden;
+	margin-left: 50px;
+	position: relative;
+	margin-top: 0px;
+	width: 1170px;
+}
+.item {
+	width: 500px;
+	margin: 10px;
+}
+.item img {
+	object-fit: cover;
+	width: 250px;
+	height: 150px;
+	border-radius: 12px;
+}

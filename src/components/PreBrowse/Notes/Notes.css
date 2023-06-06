@@ -1,0 +1,39 @@
+.notes-box {
+	position: relative;
+	top: 20px;
+	border-radius: 15px;
+	height: 400px;
+	width: 250px;
+	background-color: #f1c75b;
+	font-family: "Roboto", sans-serif;
+	font-style: normal;
+	font-weight: 600;
+}
+textarea {
+	position: relative;
+	top: 60px;
+	height: 330px;
+	width: 220px;
+	margin: auto 20px;
+	background-color: #f1c75b;
+	font-family: "Roboto", sans-serif;
+	font-style: normal;
+	font-size: 14px;
+	line-height: 1.5em;
+	letter-spacing: 0.1em;
+	outline: none;
+	resize: none;
+	border: none;
+}
+textarea::-webkit-scrollbar {
+	width: 10px;
+}
+textarea::-webkit-scrollbar-track {
+	background: #f1c75b;
+}
+textarea::-webkit-scrollbar-thumb {
+	background: #ffe6a6;
+}
+textarea::-webkit-scrollbar-thumb:hover {
+	background: #555;
+}

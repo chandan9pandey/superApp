@@ -1,0 +1,21 @@
+.chip {
+	width: 30vw;
+}
+.btn-chips {
+	background-color: #148a08;
+	border-radius: 20px;
+	height: 30px;
+	width: 100px;
+	font-family: "Roboto", sans-serif;
+	color: #ffffff;
+	border: none;
+	padding: 2px;
+	flex-shrink: 0;
+	margin: 10px;
+	cursor: pointer;
+}
+.cross {
+	color: #000000;
+	margin-left: 4px;
+	right: 0;
+}

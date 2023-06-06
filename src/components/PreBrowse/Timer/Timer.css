@@ -1,0 +1,29 @@
+.timer-box {
+	height: 160px;
+	width: 680px;
+	background-color: #1e2343;
+	border-radius: 15px;
+	position: relative;
+	bottom: 10px;
+	left: 80px;
+	display: flex;
+	justify-content: space-evenly;
+}
+.numbers {
+	text-align: center;
+	width: 400px;
+	display: flex;
+	flex-direction: column;
+	font-family: "Roboto", sans-serif;
+}
+.numbers p {
+	margin: 8px;
+	font-size: 15px;
+}
+.start-stop {
+	background-color: #ff6a6a;
+	border-radius: 15px;
+	color: #ffffff;
+	padding: 2px;
+	margin: auto 30px;
+}
